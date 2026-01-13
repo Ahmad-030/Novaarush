@@ -1,0 +1,14 @@
+<resources>
+    <color name="space_dark">#000510</color>
+    <color name="space_purple">#1A0520</color>
+    <color name="cyan_glow">#00FFFF</color>
+    <color name="pink_glow">#FF0080</color>
+    <color name="meteor_brown">#8B4513</color>
+    <color name="meteor_dark">#654321</color>
+    <color name="ship_blue">#64C8FF</color>
+    <color name="ship_dark_blue">#3296FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="danger_red">#FF4444</color>
+    <color name="success_green">#00FF00</color>
+    <color name="gold">#FFD700</color>
+</resources>

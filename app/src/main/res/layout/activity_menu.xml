@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/space_background"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOVAARUSH"
+        android:textSize="68sp"
+        android:textColor="#00FFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="20dp"
+        android:shadowColor="#FF0080"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🚀 Navigate Through Space 🚀"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="50dp" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="▶ PLAY"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00FF00"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnLeaderboard"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="🏆 LEADERBOARD"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FFD700"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnHowToPlay"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="❓ HOW TO PLAY"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00BFFF"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="280dp"
+        android:layout_height="75dp"
+        android:text="✕ EXIT"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#FF4444"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>

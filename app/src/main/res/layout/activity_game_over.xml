@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/space_background"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/tvGameOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISSION FAILED"
+        android:textSize="52sp"
+        android:textColor="#FF0000"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginBottom="30dp"
+        android:shadowColor="#000000"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="☄️ Hit by Meteor ☄️"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp" />
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stats"
+        android:textSize="28sp"
+        android:textColor="#00FFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:lineSpacingExtra="10dp"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvNewRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎉 NEW RECORD! 🎉"
+        android:textSize="28sp"
+        android:textColor="#FFD700"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="260dp"
+        android:layout_height="75dp"
+        android:text="🔄 PLAY AGAIN"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00FF00"
+        android:textColor="#000000"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="260dp"
+        android:layout_height="75dp"
+        android:text="🏠 MENU"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:backgroundTint="#00BFFF"
+        android:textColor="#000000" />
+
+</LinearLayout>

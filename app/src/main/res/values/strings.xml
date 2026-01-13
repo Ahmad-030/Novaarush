@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NovaaRush</string>
+    <string name="play">PLAY</string>
+    <string name="leaderboard">LEADERBOARD</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="exit">EXIT</string>
+    <string name="mission_failed">MISSION FAILED</string>
+    <string name="play_again">PLAY AGAIN</string>
+    <string name="menu">MENU</string>
+    <string name="back">BACK</string>
+    <string name="clear">CLEAR</string>
+</resources>
